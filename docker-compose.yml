@@ -60,6 +60,7 @@ services:
     mail__options__auth__user: MAILGUN_AUTH_USER
     mail__options__auth__pass: MAILGUN_AUTH_PASSWORD
     url: https://DOMAIN.COM
+    #url: http://localhost
 
   networks:
       - app-network

@@ -23,6 +23,8 @@ Installing and running this template is very simple.
 - Now for starting ghost and other services. Simply run:
 
         sudo bash start.sh
+### The ghost should now be running on the url that was defined in the docker-compose.yml
+
 
 ## Backup Setup
 Once the ghost server is running you can setup backups for ghost's db (Mysql in this case).
